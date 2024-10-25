@@ -1,0 +1,25 @@
+$color-primary: #FD9222;
+$color-secondary: #1E1823;
+$text-primary: #FFF;
+$text-secondary: #111;
+$color-text: #111;
+$text-link: $color-primary;
+
+$color-background-primary: $color-primary;
+$color-background-secondary: $color-secondary;
+$color-background-footer: $color-secondary;
+
+$gray-primary: #111111b3;
+$gray-secondary: #ffffffb3;
+
+$button-primary-bg: $color-primary;
+$button-primary-text: $text-primary;
+$button-primary-hover-bg: #FCF1E0;
+$button-primary-hover-text: $color-primary;
+
+$button-secondary-bg: #FAFAFA;
+$button-secondary-text: $text-primary;
+$button-secondary-hover-text: $color-primary;
+
+$gradient-hero-bg: linear-gradient(180deg, rgba(17, 17, 17, 0.00) 0%, rgba(17, 17, 17, 0.40) 100%);
+$gradient-footer-bg: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
