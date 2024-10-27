@@ -1,0 +1,110 @@
+.our-products {
+    margin-top: 41px;
+    margin-bottom: 173px;
+}
+.our-products-title {
+  color: #111111;
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 28px;
+
+  text-align: center;
+  margin-bottom: 50px;
+}
+.products-span {
+  color: #fd9222;
+}
+.products-title{
+color: #111111;
+font-size: 18px;
+font-family: Montserrat;
+font-weight: 600;
+text-transform: uppercase;
+line-height: 24px;
+}
+.products-text{
+color: rgba(17, 17, 17, 0.70);
+font-size: 12px;
+font-family: Montserrat;
+font-weight: 400;
+line-height: 14px;
+}
+.products-link{
+color: #111111;
+font-size: 14px;
+font-family: Montserrat;
+font-weight: 600;
+background-color: #FAFAFA;
+padding: 8px 20px;
+border-radius: 14px;
+border: 1px solid #cfcaca;
+
+}
+.products-div{
+    margin-top: 26px;
+    margin-bottom: 32px;
+}
+.products-carousel-item{
+    border: 1px solid #cfcaca;
+    border-radius: 14px;
+}
+.products-carousel-list{
+    gap: 18px;
+}
+// -------------------slider--------------------
+.products-carousel-wrapper {
+  --width: 75px;
+  --gap: 0;
+  --num-items: 10;
+  --ani-offset: calc(var(--width) * var(--num-items) * -1);
+  --ani-speed: 10s;
+
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.products-carousel-wrapper::before,
+.products-carousel-wrapper::after {
+  content: '';
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  z-index: 1;
+  top: 0;
+}
+.products-carousel-wrapper::before {
+  left: 0;
+  background-image: linear-gradient(
+    to right,
+    var(--bg-clr) 0%,
+    transparent 50%
+  );
+}
+.products-carousel-wrapper::after {
+  right: 0;
+  background-image: linear-gradient(to left, var(--bg-clr) 0%, transparent 50%);
+}
+
+.products-carousel-list {
+  display: flex;
+  align-items: center;
+  animation: slide var(--ani-speed) linear infinite;
+}
+.products-carousel-item {
+  flex: 1 0 var(--width);
+  text-align: center;
+  padding: 1rem;
+}
+.products-carousel-item > .products-card {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  100% {
+    transform: translateX(var(--ani-offset));
+  }
+}

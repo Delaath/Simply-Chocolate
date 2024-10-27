@@ -4,6 +4,9 @@
     margin: 0 auto;
     padding: 0 15px;
 
+    @media (min-width: 375px) {
+        width: 375px;
+    }
     @media (min-width: 768px) {
         width: 768px;
     }
