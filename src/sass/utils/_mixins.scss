@@ -1,0 +1,60 @@
+@mixin btn_buy($text-primary, $button-primary-bg) {
+    color: $text-primary;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: $button-primary-bg;
+    padding: 12px 28px;
+    border-radius: 100px;
+    border: none;
+
+    &:active {
+        background-color: $button-primary-hover-bg;
+        color: $color-primary;
+    }
+
+    @media (min-width: 768px) {
+        padding: 14px 40px;
+    }
+}
+
+@mixin btn_how-made($text-primary, $button-border-made) {
+    color: $text-primary;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 28px;
+    border-radius: 100px;
+    border: $button-border-made;
+    background-color: #ffffff00;
+
+    &:active {
+        color: $color-primary;
+        border: $button-border-made-hover;
+    }
+
+    @media (min-width: 768px) {
+        padding: 14px 40px;
+    }
+}
+
+@mixin btn_leave($color-text, $button-border-made-hover) {
+    color: $color-text;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 28px;
+    border-radius: 100px;
+    border: $button-border-made-hover;
+    background-color: #ffffff00;
+
+    &:active {
+        color: $text-primary;
+        background-color: $color-primary;
+    }
+
+    @media (min-width: 768px) {
+        font-size: 18px;
+        padding: 14px 40px;
+    }
+}
