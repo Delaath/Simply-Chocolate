@@ -7,6 +7,7 @@
     backdrop-filter: blur(8px);
     opacity: 1;
     transition: 0.5s ease;
+    z-index: 1;
 }
 
 .backdrop.is-hidden {
@@ -23,13 +24,44 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 528px;
-    min-height: 581px;
+    width: 90%;
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 4px;
     background: #FFF;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
     transform: translate(-50%, -50%);
-    min-width: 400px;
+
 }
+
+// BUY_NOW
+
+.btn-close{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 2px;
+    left: 102%;
+}
+
+.close-svg{
+    width: 24px;
+    height: 24px;
+}
+
+.buy-now-title {
+    color: $text-secondary;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+    padding-top: 48px;
+    text-align: center;
+
+    &-1{
+        color: $color-primary;
+    }
+}
+
