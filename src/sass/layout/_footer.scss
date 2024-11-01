@@ -1,8 +1,10 @@
 .footer {
-  padding-left: 15px;
   background-image: url(../images/subcribe.jpg);
   background-repeat: no-repeat;
   background-color: $color-secondary;
+  height: 374px;
+  background-size: cover;
+  background-position: center;
   .footer-wrap {
     display: flex;
     flex-direction: column;
@@ -53,6 +55,10 @@
   .footer-btn:hover {
     color: $color-primary;
     background-color: #fcf1e0;
+  }
+  .footer-box {
+    padding-left: 15px;
+    background-color: $color-secondary;
   }
   .contact {
   }
@@ -109,6 +115,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 18px;
+    padding-bottom: 32px;
   }
   .nav-item {
   }
@@ -122,5 +129,136 @@
     letter-spacing: -0.28px;
   }
   @media screen and (min-width: 375px) {
+  }
+  @media screen and (min-width: 768px) {
+    .footer-wrap {
+      display: inline-flex;
+      padding: 72px 151px 72px 150px;
+      justify-content: center;
+      align-items: center;
+      width: 736px;
+    }
+    .footer-title {
+      color: $text-primary;
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 28px; /* 116.667% */
+      letter-spacing: -0.72px;
+      text-transform: uppercase;
+    }
+    .footer-text {
+      color: $text-primary;
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px; /* 128.571% */
+      letter-spacing: -0.28px;
+      width: 467px;
+    }
+    .footer-btn {
+      color: $text-primary;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      display: flex;
+      padding: 14px 40px;
+      align-items: flex-start;
+      gap: 14px;
+      border-radius: 100px;
+      background-color: $color-primary;
+    }
+    .footer-box {
+      padding-left: 32px;
+      background-color: $color-secondary;
+    }
+    .contact {
+      padding-top: 50px;
+      margin-bottom: 50px;
+      display: flex;
+      flex-direction: row;
+      gap: 124px;
+    }
+    .footer-min-title {
+      color: $color-primary;
+      font-family: Montserrat;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 34px; /* 121.429% */
+      letter-spacing: -0.56px;
+    }
+    .footer-min-span {
+      color: $text-primary;
+      font-family: Montserrat;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 34px;
+      letter-spacing: -0.56px;
+    }
+    .contact-title {
+    }
+    .contact-list {
+    }
+    .contact-item {
+    }
+    .contact-link {
+    }
+    .nav-wrap {
+    }
+    .nav-list {
+      flex-direction: row;
+      gap: 24px;
+      padding-bottom: 50px;
+    }
+    .nav-item {
+    }
+    .nav-link {
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .footer-wrap {
+      display: inline-flex;
+      padding: 72px 367px 72px 366px;
+      justify-content: center;
+      align-items: center;
+      min-width: 1200px;
+    }
+    .footer-title {
+    }
+    .footer-text {
+    }
+    .footer-btn {
+    }
+    .contact {
+      gap: 543px;
+    }
+    .footer-min-title {
+    }
+    .footer-min-span {
+    }
+    .contact-list {
+    }
+    .contact-title {
+    }
+    .contact-item {
+    }
+    .contact-link {
+    }
+    .nav-wrap {
+    }
+    .nav-list {
+    }
+    .nav-item {
+    }
+    .nav-link {
+    }
   }
 }
