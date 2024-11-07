@@ -3,7 +3,8 @@ html{
 }
 
 .hero {
-    background-image: $gradient-hero-bg, url(../images/hero-bg.jpg);
+    // background-color: $gradient-hero-bg;
+    background-image: url(../images/hero-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
