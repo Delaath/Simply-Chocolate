@@ -1,90 +1,92 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 .hero {
-    background-image: $gradient-hero-bg, url(../images/hero-bg.jpg);
-    background-size: cover;
+  background-image: $gradient-hero-bg, url(../images/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-x: -550px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 25px;
+  margin-bottom: 70px;
+
+  &-title {
+    color: $text-primary;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    padding-top: 395px;
+  }
+
+  @media (min-width: 480px) {
     background-position: center;
-    background-repeat: no-repeat;
-    background-position-x: -550px;
-    margin-left: 15px;
-    margin-right: 15px;
-    border-radius: 25px;
-
-    &-title {
-        color: $text-primary;
-        font-family: Montserrat;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: -0.6px;
-        padding-top: 395px;
-    }
-
-    @media (min-width: 480px) {
-        background-position: center;
-    }
-
+  }
 }
 
 .hero-btn {
-    padding-top: 32px;
+  padding-top: 32px;
 }
 
 .btn_buy {
-    @include btn_buy ($text-primary, $button-primary-bg);
+  @include btn_buy($text-primary, $button-primary-bg);
 }
 
 .btn_how-made {
-    @include btn_how-made ($text-primary, $button-border-made);
+  @include btn_how-made($text-primary, $button-border-made);
 }
 
 .scroll {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 40px;
+  padding-bottom: 21px;
+
+  &-text {
+    color: $text-primary;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: -0.36px;
+  }
+
+  &-btn {
+    background-color: $text-primary;
+    border-radius: 50%;
+    border: none;
     display: flex;
-    align-items: center;
-    gap: 12px;
-    padding-top: 40px;
-    padding-bottom: 21px;
+    padding: 5px;
+  }
 
-    &-text {
-        color: $text-primary;
-        font-family: Montserrat;
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 14px;
-        letter-spacing: -0.36px;
-    }
-
-    &-btn {
-        background-color: $text-primary;
-        border-radius: 50%;
-        border: none;
-        display: flex;
-        padding: 5px;
-    }
-
-    &-svg {
-        width: 20px;
-        height: 20px;
-        fill: $color-primary;
-        animation: bounce 1s ease-in-out 10s forwards;
-    }
+  &-svg {
+    width: 20px;
+    height: 20px;
+    fill: $color-primary;
+    animation: bounce 1s ease-in-out 10s forwards;
+  }
 }
-.scroll .scroll-text:hover{
-    color: $color-primary;
+.scroll .scroll-text:hover {
+  color: $color-primary;
 }
-.scroll .scroll-btn:hover{
-    background-color: $color-primary;
+.scroll .scroll-btn:hover {
+  background-color: $color-primary;
 }
-.scroll .scroll-svg:hover{
-    fill: $text-primary;
+.scroll .scroll-svg:hover {
+  fill: $text-primary;
 }
 
 @keyframes bounce {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-  }}
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
