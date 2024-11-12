@@ -14,12 +14,9 @@ border-radius: 14px;
     margin-bottom: 130px;
 }
 .splide__list{
-    width: 360px;
+    width: 340px;
     display: flex;
     align-items: center;
-    gap: 28px;
-    z-index: 2;
-
 }
 .loved-card{
     margin-top: 5px;
@@ -79,6 +76,9 @@ margin-top: 50px;
     color: white;
 background-color: #FD9222;
 }
+.splide__track{
+    padding: 0;
+}
 // ---------------------------btn-slider------------------
 .splide__pagination{
     bottom: -40px;
@@ -86,4 +86,12 @@ background-color: #FD9222;
 .splide__pagination__page.is-active{
     background-color: $color-primary;
     width: 11px;
+}
+.splide__arrow {
+    display: none;
+}
+@media screen and (min-width:767.98px) {
+    .splide__list{
+        gap: 15px;
+    }
 }
