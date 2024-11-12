@@ -30,11 +30,8 @@ html {
 
   @media (min-width: 768px) {
     &-title {
-      color: #fff;
-      font-family: Montserrat;
+      color: $text-primary;
       font-size: 28px;
-      font-style: normal;
-      font-weight: 500;
       line-height: 34px;
       letter-spacing: -0.84px;
       width: 484px;
