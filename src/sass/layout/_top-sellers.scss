@@ -1,0 +1,66 @@
+.sellers {
+  margin-bottom: 128px;
+}
+.sellers-title {
+  color: $color-primary;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 116.667% */
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+.sellers-title-span {
+  color: $text-secondary;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+.sellers-list {
+  display: flex;
+  gap: 16px;
+}
+.sellers-item {
+}
+.item-img {
+  margin-top: 50px;
+  border-radius: 15px;
+}
+.sellers-box {
+  display: flex;
+  margin-top: 32px;
+  gap: 567px;
+  height: 72px;
+}
+.sellers-text {
+  width: 407px;
+  color: #111;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
+}
+.sellers-btn {
+  color: $text-primary;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding: 14px 40px;
+  align-items: flex-start;
+  gap: 14px;
+  border-radius: 100px;
+  background-color: #fd9222;
+  border: none;
+  margin-bottom: 17px;
+}
