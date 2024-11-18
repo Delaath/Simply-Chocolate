@@ -131,11 +131,8 @@
   }
   @media screen and (min-width: 768px) {
     .footer-wrap {
-      display: inline-flex;
-      padding: 72px 151px 72px 150px;
       justify-content: center;
       align-items: center;
-      width: 736px;
     }
     .footer-title {
       color: $text-primary;
@@ -224,11 +221,8 @@
   }
   @media screen and (min-width: 1200px) {
     .footer-wrap {
-      display: inline-flex;
-      padding: 72px 367px 72px 366px;
       justify-content: center;
       align-items: center;
-      min-width: 1200px;
     }
     .footer-title {
     }
