@@ -8,10 +8,9 @@
   .footer-wrap {
     display: flex;
     flex-direction: column;
-    padding: 62px 20px 63px 20px;
+    padding: 62px 0px 63px 0px;
     justify-content: center;
     align-items: center;
-    width: 375px;
   }
   .footer-title {
     color: $text-primary;
@@ -29,7 +28,7 @@
   .footer-text {
     color: $text-primary;
     text-align: center;
-    width: 326px;
+    width: 300px;
     font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
