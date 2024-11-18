@@ -1,8 +1,9 @@
+
 $color-primary: #FD9222;
 $color-secondary: #1E1823;
 $text-primary: #FFF;
 $text-secondary: #111;
-$color-text: #111;
+$color-text: $text-secondary;
 $text-link: $color-primary;
 
 $color-background-primary: $color-primary;
@@ -16,6 +17,8 @@ $button-primary-bg: $color-primary;
 $button-primary-text: $text-primary;
 $button-primary-hover-bg: #FCF1E0;
 $button-primary-hover-text: $color-primary;
+$button-border-made: 1px solid #FFF;
+$button-border-made-hover: 1px solid #FD9222;
 
 $button-secondary-bg: #FAFAFA;
 $button-secondary-text: $text-primary;

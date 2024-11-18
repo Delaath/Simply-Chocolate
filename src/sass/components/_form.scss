@@ -1,0 +1,119 @@
+.extended-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+.extended-form label {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: -0.24px;
+  padding-top: 15px;
+
+  @media (min-width: 768px) {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+  }
+}
+
+.extended-form input,
+.extended-form textarea,
+.extended-form select {
+  padding: 14px 18px;
+  border-radius: 8px;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.03);
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+
+  @media (min-width: 768px) {
+    padding: 22px 24px;
+  }
+}
+
+// SUBScRIBE
+.extended-form-2 {
+  display: flex;
+  flex-direction: row;
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 8px;
+  border: 1.5px solid rgba(17, 17, 17, 0.066);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.03);
+}
+
+.extended-form-2 input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1.5px solid rgba(17, 17, 17, 0);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.03);
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 15px;
+}
+
+.extended-form-2 button {
+  @include btn_buy($text-primary, $button-primary-bg);
+  width: 50%;
+}
+
+/* Стиль объединенного телефона */
+.phone-input {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.phone-input select {
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  appearance: none;
+  max-width: 60px;
+  text-align: center;
+}
+
+.phone-input input {
+  border: none;
+  border-left: 1px solid #ccc;
+  flex: 1;
+  padding: 14px 18px;
+  font-size: 16px;
+
+  @media (min-width: 768px) {
+    padding: 22px 24px;
+  }
+}
+
+.phone-input select:focus,
+.phone-input input:focus {
+  outline: none;
+}
+
+.card-input .card-logo {
+  width: 40px;
+  margin-left: 10px;
+  visibility: hidden;
+}
+
+.extended-form button {
+  @include btn_buy($text-primary, $button-primary-bg);
+  width: 50%;
+  margin-top: 20px;
+
+  @media (min-width: 768px) {
+    padding: 14px 40px;
+  }
+}

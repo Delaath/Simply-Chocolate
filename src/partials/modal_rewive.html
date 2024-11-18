@@ -1,0 +1,35 @@
+<div class="backdrop is-hidden" data-modal-2>
+  <div class="modal">
+    <div class="close-div"><button class="btn-close" data-close-modal-2><svg class="close-svg">
+          <use href="./images/symbol-defs.svg#icon-close"></use>
+        </svg></button></div>
+    <div class="buy-now"></div>
+    <h3 class="rewive-title">leave a review
+    about <span class="rewive-title-1">our chocolate</span></h3>
+
+    <form class="extended-form">
+      <label for="first-name"></label>
+      <input type="text" id="first-name" name="first-name" placeholder="Name" required
+        pattern="[A-Za-zА-Яа-яЁёЇїІіЄєҐґ]+" title="Будь ласка, використовуйте лише літери." />
+
+      <label for="email"></label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+      <label for="phone"></label>
+      <div class="phone-input">
+        <select id="country-code" name="country-code">
+          <option value="+380">+380</option>
+          <option value="+1">+1</option>
+          <option value="+44">+44</option>
+        </select>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+          title="Введіть номер у форматі 123-456-7890" />
+      </div>
+
+      <label for="comments"></label>
+      <textarea id="comments" name="comments" placeholder="Enter text"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+
+  </div>
+</div>

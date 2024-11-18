@@ -1,0 +1,98 @@
+.chocolate-loved{
+margin-bottom: 128px;
+}
+.splide__slide{
+    border: 1px solid rgb(200, 200, 200);
+padding: 0px 24px;
+border-radius: 14px;
+
+}
+.card-slider{
+    display: flex;
+}
+.slider__div{
+    margin-bottom: 130px;
+}
+.splide__list{
+    width: 340px;
+    display: flex;
+    align-items: center;
+}
+.loved-card{
+    margin-top: 5px;
+    display: flex;
+    margin: 0 auto;
+
+}
+.slider-img{
+    display: flex;
+    justify-content: center;
+}
+.loved-title{
+    text-align: center;
+color: #111111;
+ font-size: 18px;
+ font-family: Montserrat;
+ font-weight: 600;
+ line-height: 24px;
+
+ margin-bottom: 24px;
+}
+.loved-text{
+    text-align: center;
+color: rgba(17, 17, 17, 0.70);
+ font-size: 14px;
+ font-family: Montserrat;
+ font-weight: 400;
+ line-height: 18px;
+
+ margin-bottom: 30px;
+}
+.splide-list{
+    padding: 10px 24px;
+}
+// -----------------btn-----------------
+.lived-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.choco-btn{
+color: #111111;
+font-size: 18px;
+font-family: Montserrat;
+font-weight: 600;
+
+
+border: none;
+background-color: white;
+border: 1px solid $color-primary;
+padding: 14px 20px;
+border-radius: 30px;
+
+margin-top: 50px;
+}
+.choco-btn:hover{
+    color: white;
+background-color: #FD9222;
+}
+.splide__track{
+    padding: 0;
+}
+// ---------------------------btn-slider------------------
+.splide__pagination{
+    bottom: -40px;
+}
+.splide__pagination__page.is-active{
+    background-color: $color-primary;
+    width: 17px;
+    border-radius: 16px;
+}
+.splide__arrow {
+    display: none;
+}
+@media screen and (min-width:767.98px) {
+    .splide__list{
+        gap: 15px;
+    }
+}
