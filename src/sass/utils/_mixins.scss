@@ -8,6 +8,8 @@
     border-radius: 100px;
     border: none;
 
+    margin-bottom: 8px;
+
     &:active {
         background-color: $button-primary-hover-bg;
         color: $color-primary;
