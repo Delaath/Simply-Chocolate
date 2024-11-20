@@ -85,7 +85,8 @@ background-color: #FD9222;
 }
 .splide__pagination__page.is-active{
     background-color: $color-primary;
-    width: 11px;
+    width: 17px;
+    border-radius: 16px;
 }
 .splide__arrow {
     display: none;
