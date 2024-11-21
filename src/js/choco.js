@@ -1,6 +1,6 @@
 var splide = new Splide( '#sliderchoco', {
   type   : 'loop',
-  pading: 0,
+  padding: 0,
   autoplay: true,
 } );
 
