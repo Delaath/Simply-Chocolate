@@ -24,6 +24,9 @@
   }
   .sellers-item {
   }
+  .storr {
+    display: none;
+  }
   .item-img {
     margin-bottom: 20px;
     margin-top: 32px;
@@ -93,6 +96,9 @@
     .item-img {
       width: 368px;
       height: 464px;
+    }
+    .storr {
+      display: flex;
     }
   }
 }
